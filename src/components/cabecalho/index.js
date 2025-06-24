@@ -8,7 +8,7 @@ export default function Cabecalho(){
 
             <View style={styles.viewHeader}> 
         
-              <Text style={styles.textHeader}> Brothers Universe </Text>
+              <Text style={[styles.textHeader, {textShadowOffset: {height: 3, width: 3}, textShadowColor: "rgb(89, 0, 255)"}]}> Brothers Universe </Text>
         
             </View>
     )

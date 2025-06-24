@@ -9,10 +9,10 @@ const styles = StyleSheet.create({
         marginLeft: 10
     },
     textHeader: {
-        fontSize: 25,
+        fontSize: 50,
         color: "white",
         fontWeight: "bold",
-        marginRight: 75
+        marginRight: 75,
     }
 })
 

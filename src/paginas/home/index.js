@@ -58,7 +58,7 @@ export default function App() {
     {/* Nintendo */}
     <View style = {{width: "100%", marginTop: 50, marginBottom: 20}}>
     
-        <Text style = {{color: "white", fontSize: 30, marginLeft: 30}}> Games <Text style = {{color: "rgb(255, 110, 110)", textShadowColor: "rgba(255, 0, 0, 0.8)", textShadowOffset: {height: 0, width: 0}, textShadowRadius: 20 }}>Nintendo</Text> </Text>
+        <Text style = {{color: "white", fontSize: 30, marginLeft: 30}}> Games <Text style = {{color: "rgb(255, 110, 110)", textShadowColor: "rgba(255, 0, 0, 1)", textShadowOffset: {height: 0, width: 0}, textShadowRadius: 20 }}>Nintendo</Text> </Text>
 
     <FlatList
 
