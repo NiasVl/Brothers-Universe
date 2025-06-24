@@ -5,7 +5,7 @@ const playstation = [
     desc: " Um jogo emocionante de ação e aventura que continua a história de Ellie em um mundo pós-apocalíptico.",
     preco: "R$349,99",
     quant: "88",
-    img: ""
+    img: "https://hfgamesstore.com.br/wp-content/uploads/2024/05/capthe-last-2-ps5-1.jpg"
     },
     {
     nome: "Spider-Man: Miles Morales",
@@ -13,7 +13,7 @@ const playstation = [
     desc: "Uma aventura incrível do Homem-Aranha, onde você controla Miles Morales e explora uma Nova York vibrante.",
     preco: "R$299,99",
     quant: "85",
-    img: ""
+    img: "https://hfgamesstore.com.br/wp-content/uploads/2024/05/miles-ps5-1.jpg"
     },
     {
     nome: "Demon's Souls (Remake)",
@@ -21,7 +21,7 @@ const playstation = [
     desc: "Uma versão renovada do clássico RPG de ação, conhecido por seu desafio e atmosfera sombria.",
     preco: "R$349,99",
     quant: "83",
-    img: ""
+    img: "https://www.gamers-shop.dk/images/game_img/demonssoulsremake.jpg"
     },
     {
     nome: "Ghost of Tsushima",
@@ -29,7 +29,7 @@ const playstation = [
     desc: "Um jogo de ação e aventura ambientado no Japão feudal, onde você assume o papel de um samurai lutando pela liberdade.",
     preco: "R$299,99",
     quant: "81",
-    img: ""
+    img: "https://m.media-amazon.com/images/I/716o8AMc+sS.jpg"
     },
     {
     nome: "Horizon Forbidden West",
@@ -37,6 +37,8 @@ const playstation = [
     desc: "Uma aventura de mundo aberto com uma protagonista forte, explorando um mundo futurista cheio de criaturas incríveis.",
     preco: "R$249,99",
     quant: "77",
-    img: "https://m.media-amazon.com/images/I/61KU9GYqDPL._AC_UF1000,1000_QL80_.jpg"
+    img: "https://cdn.mobygames.com/covers/10495868-horizon-ii-forbidden-west-playstation-5-front-cover.jpg"
     }
 ]
+
+export default playstation
