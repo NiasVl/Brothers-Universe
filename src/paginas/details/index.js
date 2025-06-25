@@ -9,13 +9,17 @@ export default function Details() {
 
     return(
         <View style = {styles.containerP}>
+
                 <View style = {styles.containerImg}>
-                    <Image style = {styles.Imagem}  source = {{uri: (route.params.imagem)}} ></Image>
+                    <Image style = {styles.Imagem}  source = {{uri: (route.params.img)}}></Image>
                 </View>
+
                     <Text style = {styles.titulo} >{route.params.titulo}</Text>
                     <Text style = {styles.nota} >{route.params.nota}</Text>
             <ScrollView>
-                    <Text style = {styles.sinopse} > {route.params.sinopse} </Text>
+                    <Text style = {styles.sinopse} > {route.params.descricao} </Text>
+                    <Text style = {styles.sinopse} > {route.params.preco} </Text>
+                    <Text style = {styles.sinopse} > {route.params.quant} </Text>
             </ScrollView>        
         </View>
     )

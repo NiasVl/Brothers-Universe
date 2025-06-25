@@ -9,14 +9,22 @@ const styles = StyleSheet.create({
         alignItems: "center"
     },
     containerImg: {
-        width: '100%', 
-        height: 300, 
-        overflow: 'hidden', 
+
+        flex: 2,
+
+        width:  "100%", 
+        height: 300,
+        
+        marginTop: 40,
+        
     },
     Imagem: {
         width: '100%', 
         height: '100%',
-        resizeMode: 'contain'
+
+        resizeMode: "contain",
+
+
     },
     titulo : {
         fontSize: 50,

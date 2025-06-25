@@ -8,9 +8,12 @@ export default function Cards ({titulo, descricao, nota, preco, quant, img  }) {
     const navigation = useNavigation();
 
     return(
-        <TouchableOpacity style= {styles.containerMovie} onPress={()=> navigation.navigate("Details", {titulo,descricao,nota,preco,quant,img})} >
+
+        <View style= {styles.containerMovie}>
+        <TouchableOpacity onPress={()=> navigation.navigate("Details", {titulo,descricao,nota,preco,quant,img})} >
             
            <Image style={styles.images} source= {{uri: (img)}} />
+        </TouchableOpacity>
            
            <Text style ={styles.titulo}> {titulo} </Text>
 
@@ -24,7 +27,8 @@ export default function Cards ({titulo, descricao, nota, preco, quant, img  }) {
 
 
 
-        </TouchableOpacity>
+
+        </View>
     )
 
 

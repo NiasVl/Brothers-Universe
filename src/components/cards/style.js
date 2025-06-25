@@ -21,8 +21,15 @@ const styles = StyleSheet.create({
 
         color: "white",
         fontSize: 25,
+        
         paddingTop: 10,
-        width: 200
+        
+        marginBottom: 10,
+
+
+        width: 200,
+        alignItems: "center",
+        justifyContent: "center"
     },
     preco: {
         fontSize: 20,
