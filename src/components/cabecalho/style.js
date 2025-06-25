@@ -6,13 +6,13 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         marginTop: 8,
-        marginLeft: 10
+        marginLeft: 10,
+        width: "100%",
     },
     textHeader: {
-        fontSize: 50,
+        fontSize: 45,
         color: "white",
         fontWeight: "bold",
-        marginRight: 75,
     }
 })
 

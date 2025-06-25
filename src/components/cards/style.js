@@ -20,22 +20,58 @@ const styles = StyleSheet.create({
     titulo: {
 
         color: "white",
-        fontSize: 15,
-        paddingTop: 8,
+        fontSize: 25,
+        paddingTop: 10,
         width: 200
     },
     preco: {
-        fontSize: 10,
-        color: "white"
+        fontSize: 20,
+        color: "white",
+        paddingLeft: 4 ,
+        width: 200,
+        textAlign: "center",
+        paddingTop: 5,
+        paddingBottom: 5,
+        backgroundColor: "rgba(0, 0, 0, 0.56)",
+        borderRadius: 5
     },
     textNota: {
-        fontSize: 10,
-        color: "white",
-        paddingLeft: 4    
+        fontSize: 16,
+        color: "yellow",
+        paddingLeft: 4 ,
+        width: 200,
+        textAlign: "center",
+        paddingTop: 5,
+        paddingBottom: 5,
+        backgroundColor: "rgba(0, 0, 0, 0.56)",
+        borderRadius: 5   
     },
     images: {
         width: 200,
         height: 270,
+        borderRadius: 5
+    },
+    descricao: {
+        fontSize: 18,
+        color: "white",
+        paddingLeft: 4 ,
+        width: 200,
+        textAlign: "center",
+        paddingTop: 5,
+        paddingBottom: 5,
+        backgroundColor: "rgba(0, 0, 0, 0.56)",
+        borderRadius: 5,
+        marginTop: 10
+    },
+    quantidade: {
+        fontSize: 20,
+        color: "white",
+        paddingLeft: 4 ,
+        width: 215,
+        textAlign: "center",
+        paddingTop: 5,
+        paddingBottom: 5,
+        backgroundColor: "rgba(0, 0, 0, 0.56)",
         borderRadius: 5
     }
 
