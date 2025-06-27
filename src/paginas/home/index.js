@@ -12,6 +12,8 @@ import Cards from '../../components/cards';
 export default function App() {
   const imagem = Math.floor(Math.random() * 4 + 1);
 
+  
+
   return (
     <ScrollView style = {{flex: 2}}>
     <View style={styles.container}>
@@ -32,7 +34,7 @@ export default function App() {
       reyExtractor={(item) => item.id}
       renderItem= {({item}) => (
 
-        <Cards titulo = {item.nome} nota = {item.avaliacao} img = {item.img} desc = {item.desc} preco = {item.preco} descricao = {item.desc} quant = {item.quant} />
+        <Cards titulo = {item.nome} nota = {item.avaliacao} img = {item.img} desc = {item.desc} preco = {item.preco} descricao = {item.desc} quant = {item.quant} devel = {item.desenvolvedor} genero = {item.genero}/>
 
   )}   />
 
@@ -50,7 +52,7 @@ export default function App() {
       reyExtractor={(item) => item.id}
       renderItem= {({item}) => (
 
-        <Cards titulo = {item.nome} nota = {item.avaliacao} img = {item.img} desc = {item.desc} preco = {item.preco} descricao = {item.desc} quant = {item.quant} />
+        <Cards titulo = {item.nome} nota = {item.avaliacao} img = {item.img} desc = {item.desc} preco = {item.preco} descricao = {item.desc} quant = {item.quant} devel = {item.desenvolvedor} genero = {item.genero}/>
 
   )} />
 
@@ -69,7 +71,7 @@ export default function App() {
       reyExtractor={(item) => item.id}
       renderItem= {({item}) => (
 
-        <Cards titulo = {item.nome} nota = {item.avaliacao} img = {item.img} desc = {item.desc} preco = {item.preco} descricao = {item.desc} quant = {item.quant} />
+        <Cards titulo = {item.nome} nota = {item.avaliacao} img = {item.img} desc = {item.desc} preco = {item.preco} descricao = {item.desc} quant = {item.quant} devel = {item.desenvolvedor} genero = {item.genero}/>
 
   )} style = {{marginRight: 10}}/>
 

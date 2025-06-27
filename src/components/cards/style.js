@@ -80,6 +80,28 @@ const styles = StyleSheet.create({
         paddingBottom: 5,
         backgroundColor: "rgba(0, 0, 0, 0.56)",
         borderRadius: 5
+    },
+    desenvolvedor: {
+        fontSize: 16,
+        color: "white",
+        paddingLeft: 4 ,
+        width: 220,
+        textAlign: "center",
+        paddingTop: 5,
+        paddingBottom: 5,
+        backgroundColor: "rgba(0, 0, 0, 0.56)",
+        borderRadius: 5
+    },
+    genero: {
+        fontSize: 16,
+        color: "white",
+        paddingLeft: 4 ,
+        width: 200,
+        textAlign: "center",
+        paddingTop: 5,
+        paddingBottom: 5,
+        backgroundColor: "rgba(0, 0, 0, 0.56)",
+        borderRadius: 5
     }
 
 })

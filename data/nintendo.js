@@ -5,7 +5,9 @@ const nintendo = [{
     desc: "Uma aventura épica de mundo aberto onde você explora um reino vasto e cheio de segredos.",
     preco: "R$249,99",
     quant: "Restam 33 unidades ",
-    img: "https://m.media-amazon.com/images/I/81Ge3v6ro8L._AC_UF1000,1000_QL80_.jpg"
+    img: "https://m.media-amazon.com/images/I/81Ge3v6ro8L._AC_UF1000,1000_QL80_.jpg",
+    desenvolvedor: "Nintendo",
+    genero: "Ação/Aventura",
 
 },
 {   
@@ -14,7 +16,9 @@ const nintendo = [{
     desc: "Uma divertida aventura do Mario, viajando por diferentes mundos para salvar a princesa Peach.",
     preco: "R$249,99",
     quant: "Restam 32 unidades ",
-    img: "https://m.media-amazon.com/images/I/91SF0Tzmv4L.jpg"
+    img: "https://m.media-amazon.com/images/I/91SF0Tzmv4L.jpg",
+    desenvolvedor: "Nintendo",
+    genero: "Ação/Aventura",
 },
 {
 
@@ -24,16 +28,20 @@ const nintendo = [{
     desc: "Um jogo relaxante onde você constrói e gerencia sua própria ilha paradisíaca.",
     preco: "R$299,99",
     quant: "Restam 65 unidades ",
-    img: "https://m.media-amazon.com/images/I/81UfEdvf2kL.jpg"
+    img: "https://m.media-amazon.com/images/I/81UfEdvf2kL.jpg",
+    desenvolvedor: "Nintendo",
+    genero: "Simulação/Social",
 },
 {
 
     nome: "Mario Kart 8 Deluxe",
     avaliacao: "4.9 / 5.0",
-    desc: "Uma corrida cheia de diversão com personagens icônicos da Nintendo, perfeita para jogar com amigos.",
+    desc: "Uma corrida cheia de diversão com personagens icônicos da , perfeita para jogar com amigos.",
     preco: "R$149,99",
     quant: "Restam 56 unidades ",
-    img: "https://m.media-amazon.com/images/I/61UFnW4XewL._AC_UF1000,1000_QL80_.jpg"
+    img: "https://m.media-amazon.com/images/I/61UFnW4XewL._AC_UF1000,1000_QL80_.jpg",
+    desenvolvedor: "Nintendo",
+    genero: "Corrida",
 },
 {
 
@@ -42,7 +50,9 @@ const nintendo = [{
     desc: "Um jogo de tiro em equipe com um estilo único de pintura e batalhas coloridas.",
     preco: "R$299,99",
     quant: "Restam 51 unidades ",
-    img: "https://m.media-amazon.com/images/I/81OSkSH-qgL.jpg"
+    img: "https://m.media-amazon.com/images/I/81OSkSH-qgL.jpg",
+    desenvolvedor: "Nintendo",
+    genero: "Ação/Aventura",
 
 }]
 

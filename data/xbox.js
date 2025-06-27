@@ -4,8 +4,9 @@ const xbox = [{
     desc: "Um jogo de tiro em primeira pessoa que continua a saga do Master Chief, com uma campanha épica e multiplayer divertido.",
     preco: "R$199,99",
     quant: "Restam 63 unidades ",
-    img: "https://m.media-amazon.com/images/I/61aD5rcWynL._AC_UF1000,1000_QL80_DpWeblab_.jpg"
-
+    img: "https://m.media-amazon.com/images/I/61aD5rcWynL._AC_UF1000,1000_QL80_DpWeblab_.jpg",
+    desenvolvedor: "343 Industries",
+    genero: "Ação/Aventura",
     },
     {
     nome: "Forza Horizon 5",
@@ -13,7 +14,9 @@ const xbox = [{
     desc: "Um incrível jogo de corrida com gráficos deslumbrantes e um vasto mundo aberto para explorar.",
     preco: "R$199,99",
     quant: "Restam 54 unidades ",
-    img: "https://upload.wikimedia.org/wikipedia/pt/thumb/d/dc/Capa_de_Forza_Horizon_5.jpg/330px-Capa_de_Forza_Horizon_5.jpg"
+    img: "https://upload.wikimedia.org/wikipedia/pt/thumb/d/dc/Capa_de_Forza_Horizon_5.jpg/330px-Capa_de_Forza_Horizon_5.jpg",
+    desenvolvedor: "Playground Games",
+    genero: "Corrida",
     },
     {
     nome: "Fable (Remake)",
@@ -21,7 +24,9 @@ const xbox = [{
     desc: " Uma nova versão do clássico RPG de fantasia, onde suas escolhas moldam o mundo ao seu redor.",
     preco: "R$249,99",
     quant: "Restam 89 unidades ",
-    img: "https://m.media-amazon.com/images/M/MV5BYWRjOWQxZmMtYWE4OC00NGRjLTgxNTgtZmNiODVlZmM4YjA2XkEyXkFqcGc@._V1_.jpg"
+    img: "https://m.media-amazon.com/images/M/MV5BYWRjOWQxZmMtYWE4OC00NGRjLTgxNTgtZmNiODVlZmM4YjA2XkEyXkFqcGc@._V1_.jpg",
+    desenvolvedor: "Playground Games",
+    genero: "RPG/Ação",
     },
     {
     nome: "Gears 5",
@@ -29,7 +34,9 @@ const xbox = [{
     desc: "Um jogo de tiro em terceira pessoa com uma história envolvente e ação intensa.",
     preco: "R$199,99",
     quant: "Restam 90 unidades ",
-    img: "https://m.media-amazon.com/images/I/919dl5j3-LL.jpg"
+    img: "https://m.media-amazon.com/images/I/919dl5j3-LL.jpg",
+    desenvolvedor: "The Coalition",
+    genero: "Ação/Aventura",
     },
     {
     nome: "Sea of Thieves",
@@ -37,8 +44,10 @@ const xbox = [{
     desc: "Uma aventura multiplayer de piratas, cheia de exploração, batalhas e muita diversão no mar.",
     preco: "R$219,99",
     quant: "Restam 55 unidades ",
-    img: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9d/Sea_of_thieves_box.jpg/330px-Sea_of_thieves_box.jpg"
-    }
+    img: "https://upload.wikimedia.org/wikipedia/pt/thumb/9/9d/Sea_of_thieves_box.jpg/330px-Sea_of_thieves_box.jpg",
+    desenvolvedor: "Rare",
+    genero: "Ação/Aventura",
+    },
 ]
 
 export default xbox;
